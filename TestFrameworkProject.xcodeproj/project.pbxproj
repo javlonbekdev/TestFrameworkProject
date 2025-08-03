@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B2649A332E3F4240007F6590 /* TestFramework in Frameworks */ = {isa = PBXBuildFile; productRef = B2649A322E3F4240007F6590 /* TestFramework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B2649A152E3F421B007F6590 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2649A332E3F4240007F6590 /* TestFramework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = TestFrameworkProject;
 			packageProductDependencies = (
+				B2649A322E3F4240007F6590 /* TestFramework */,
 			);
 			productName = TestFrameworkProject;
 			productReference = B2649A072E3F4219007F6590 /* TestFrameworkProject.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = B26499FE2E3F4219007F6590;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B2649A312E3F4240007F6590 /* XCRemoteSwiftPackageReference "TestFramework" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B2649A082E3F4219007F6590 /* Products */;
 			projectDirPath = "";
@@ -558,6 +567,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B2649A312E3F4240007F6590 /* XCRemoteSwiftPackageReference "TestFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/javlonbekdev/TestFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B2649A322E3F4240007F6590 /* TestFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2649A312E3F4240007F6590 /* XCRemoteSwiftPackageReference "TestFramework" */;
+			productName = TestFramework;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B26499FF2E3F4219007F6590 /* Project object */;
 }

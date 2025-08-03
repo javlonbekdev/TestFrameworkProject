@@ -1,0 +1,15 @@
+{
+  "originHash" : "12088c5cc37124080e0998216e9e23602932319d3281b152a80af891c188860d",
+  "pins" : [
+    {
+      "identity" : "testframework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/javlonbekdev/TestFramework",
+      "state" : {
+        "revision" : "e2340aa414eb96aee5bb1eb0ca3e18bc8abb9787",
+        "version" : "0.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}
